@@ -1,5 +1,7 @@
+package Fundamental;
+
 /**
- * Created by Fenix on 06.02.2017.
+ * @author Fenix
  */
 public class DelegateApp {
 

@@ -1,3 +1,5 @@
+package Structural;
+
 /**
  * Facade pattern hides the complexities of the system
  * and provides an interface to the client using
