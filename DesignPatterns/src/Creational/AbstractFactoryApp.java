@@ -158,5 +158,3 @@ class RuDeviceFactory implements DeviceFactory {
         return new RuTouchpad();
     }
 }
-
-
