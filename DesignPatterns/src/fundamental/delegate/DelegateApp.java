@@ -1,4 +1,4 @@
-package Fundamental;
+package fundamental.delegate;
 
 /**
  * @author Fenix

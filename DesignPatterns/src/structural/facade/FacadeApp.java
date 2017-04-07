@@ -1,4 +1,4 @@
-package Structural;
+package structural.facade;
 
 /**
  * Facade pattern hides the complexities of the system
