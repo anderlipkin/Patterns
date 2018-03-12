@@ -1,6 +1,7 @@
 package сreational.factorymethod;
 
 import java.util.Date;
+import java.util.Random;
 
 /**
  * Определяет интерфейс для создания объекта (WatchMaker),
@@ -11,7 +12,9 @@ import java.util.Date;
 public class FactoryMethodInnerClass {
 
     public static void main(String[] args) {
-        WatchMaker maker = getMakerByName("Digital");
+        String[] randMaker = new String[]{"Digital", "Rome"};
+        WatchMaker maker = getMakerByName(
+                randMaker[new Random().nextInt(2)]);
 
         Watch watch = maker.createWatch();
         watch.showTime();
